@@ -5,7 +5,7 @@ import QuoteCard from "./components/QuoteCard";
 import axios from "axios";
 
 function App() {
-  const [simpson, setSimpson] = React.useState("");
+  const [simpson, setSimpson] = useState("");
 
   function getSimpson() {
     // Send the request
